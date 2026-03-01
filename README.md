@@ -1,16 +1,26 @@
-# React + Vite
+# Atividade CPW – Desafio Evoluir a Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descrição
+Este projeto consiste em um formulário desenvolvido em React, no qual o usuário pode inserir seu nome e e-mail. Após preencher os campos, é possível gerar um card que exibe essas informações na tela.
 
-Currently, two official plugins are available:
+Além disso, o card possui funcionalidades extras:
+- Alterar a cor de fundo utilizando um seletor de cores;
+- Excluir o card por meio de um botão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades Implementadas
+- Formulário para entrada de nome e e-mail;
+- Geração dinâmica de um card com os dados informados;
+- Alteração da cor de fundo do card;
+- Remoção do card através de um botão de exclusão;
+- Uso de estados (`useState`) para controle dos dados e da renderização.
 
-## React Compiler
+## ⚠️ Dificuldades Encontradas
+Uma das principais dificuldades foi relembrar a utilização do evento `onChange` em formulários React, especialmente para capturar e atualizar os valores digitados pelo usuário em tempo real.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Também houve dificuldade em revisar o conceito de renderização condicional, pois fazia algum tempo que eu não praticava essa abordagem. Foi necessário relembrar como exibir ou ocultar componentes dinamicamente com base no estado da aplicação.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+- React
+- JavaScript
+- HTML
+- CSS
