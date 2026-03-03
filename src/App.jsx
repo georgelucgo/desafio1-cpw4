@@ -6,7 +6,7 @@ function App() {
   const [email, setEmail] = useState("");
   const [card, setCard] = useState(false);
   const [cor, setCor] = useState("");
-  const [bg, setBg] = useState("");
+  const [bg, setBg] = useState("#e3e3e3");
 
   function gerarCard(e) {
     e.preventDefault();
